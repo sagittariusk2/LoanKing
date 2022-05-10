@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E8F5E9"
+    tools:context=".ApplicationActivity">
+
+
+    <TextView
+        android:id="@+id/tenure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Tenure :- "
+        android:textColor="#E35E14"
+        android:textSize="25sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tenure"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Interest Rate :- "
+        android:textColor="#E35E14"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+
+    <EditText
+        android:id="@+id/inputTenure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="7"
+        android:hint="(in months)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputInterest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tenure"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="7"
+        android:hint="(in %)"
+        android:inputType="number" />
+</RelativeLayout>

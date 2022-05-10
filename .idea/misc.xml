@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/drawable/app_bg.xml" value="0.1735" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/drawable/ic_refresh.xml" value="0.1735" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/drawable/normal_corner.xml" value="0.1735" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/drawable/round_corner.xml" value="0.1735" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_aadhaar.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_application.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_bank.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_modified.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_pan.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_salary.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_sigin.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_splash.xml" value="0.203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/activity_update_acitivity.xml" value="0.203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/fragment_list.xml" value="0.203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/layout_profile.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/list1_container.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/modification_container.xml" value="0.33" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/layout/personal_loan_container.xml" value="0.203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/menu/menu.xml" value="0.203125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1715" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LoanKing/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

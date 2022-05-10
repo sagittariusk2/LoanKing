@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "42043568225",
+    "project_id": "loanking-4b9d5",
+    "storage_bucket": "loanking-4b9d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42043568225:android:e0f0cefd3a30670e96fa20",
+        "android_client_info": {
+          "package_name": "com.devwarriors.loanking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42043568225-4bejf4rj664k8v00libmrnootr26afv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devwarriors.loanking",
+            "certificate_hash": "a0421dee80cb4dd82d09ca3d8a76b2706220f470"
+          }
+        },
+        {
+          "client_id": "42043568225-3oihbfp0pstqnljj2v5652iphdid9252.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwN2hJ604uxyIH7Ts8yCIm8xu4msGwBg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42043568225-3oihbfp0pstqnljj2v5652iphdid9252.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
