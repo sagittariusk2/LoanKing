@@ -156,6 +156,7 @@ public class ModificationAdapter extends RecyclerView.Adapter<ModificationAdapte
 
         holder.acceptBtn.setOnClickListener(view -> {
             String tId=modifiedRequests.get(position);
+            // Removing all except
             database.getReference().child("LoanRequests").child(loanRequest).child("modifiedVariants").addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -178,6 +179,21 @@ public class ModificationAdapter extends RecyclerView.Adapter<ModificationAdapte
 
             // removing from global list
             database.getReference().child("GlobalList").child(loanRequest).removeValue();
+
+            // removing from list2 of all user
+            database.getReference().child("Users").addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    for(DataSnapshot data:snapshot.getChildren()) {
+                        database.getReference().child("Users").child(data.getKey()).child("list2").child(loanRequest).removeValue();
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
 
             // sending mail to both the parties
             database.getReference().child("LoanRequests").child(loanRequest).addListenerForSingleValueEvent(new ValueEventListener() {
